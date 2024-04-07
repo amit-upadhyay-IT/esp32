@@ -1,0 +1,9 @@
+idf_component_register(
+    SRCS 
+        "calc.c"
+        "main.c"
+        "calc2/calc2.c"
+    INCLUDE_DIRS 
+        "."
+        "./calc2"
+)
