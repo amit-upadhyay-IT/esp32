@@ -5,17 +5,38 @@
 
 Starts a FreeRTOS task to print "Hello World".
 
-(See the README.md file in the upper level 'examples' directory for more information about examples.)
+## output of program:
 
-## How to use example
+> Hello world!
+> This is esp32 chip with 2 CPU core(s), WiFi/BTBLE, silicon revision v3.1, 2MB external flash
+> Minimum free heap size: 300876 bytes
 
-Follow detailed instructions provided specifically for this example.
 
-Select the instructions depending on Espressif chip installed on your development board:
+we load the chip info like this:
+```
+    esp_chip_info_t chip_info;
+    esp_chip_info(&chip_info);
+```
 
-- [ESP32 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/stable/get-started/index.html)
-- [ESP32-S2 Getting Started Guide](https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/get-started/index.html)
+we can get the esp details like this:
+```
+    chip_info.cores,
+    (chip_info.features & CHIP_FEATURE_WIFI_BGN) ? "WiFi/" : "",
+    (chip_info.features & CHIP_FEATURE_BT) ? "BT" : "",
+    (chip_info.features & CHIP_FEATURE_BLE) ? "BLE" : "",
+    (chip_info.features & CHIP_FEATURE_IEEE802154) ? ", 802.15.4 (Zigbee/Thread)" : "")
+```
 
+We can get the flash shize using:
+```
+uint32_t flash_size;
+esp_flash_get_size(NULL, &flash_size);
+```
+
+Free heap space could also be a useful metric:
+```
+esp_get_minimum_free_heap_size();
+```
 
 ## Example folder contents
 
@@ -42,12 +63,3 @@ For more information on structure and contents of ESP-IDF projects, please refer
 
     * Hardware connection is not correct: run `idf.py -p PORT monitor`, and reboot your board to see if there are any output logs.
     * The baud rate for downloading is too high: lower your baud rate in the `menuconfig` menu, and try again.
-
-## Technical support and feedback
-
-Please use the following feedback channels:
-
-* For technical queries, go to the [esp32.com](https://esp32.com/) forum
-* For a feature request or bug report, create a [GitHub issue](https://github.com/espressif/esp-idf/issues)
-
-We will get back to you as soon as possible.

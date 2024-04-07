@@ -1,4 +1,4 @@
-# Install script for directory: /Users/amitupadhyay/esp_projects/esp_info/main
+# Install script for directory: /Users/amitupadhyay/esp_projects/3_esp_info/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

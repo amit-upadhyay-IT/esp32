@@ -1,4 +1,4 @@
-/* * Data converted from /Users/amitupadhyay/esp_projects/esp_info/build/esp-idf/mbedtls/x509_crt_bundle
+/* * Data converted from /Users/amitupadhyay/esp_projects/3_esp_info/build/esp-idf/mbedtls/x509_crt_bundle
  */
 .data
 .section .rodata.embedded

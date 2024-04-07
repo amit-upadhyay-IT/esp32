@@ -11,7 +11,11 @@
         "interface/ftdi/esp32_devkitj_v1.cfg",
         "target/esp32.cfg"
     ],
-    "idf.port": "/dev/cu.wlan-debug",
+    "idf.port": "/dev/cu.usbserial-10",
     "idf.pythonBinPath": "/Users/amitupadhyay/.espressif/python_env/idf5.2_py3.9_env/bin/python",
-    "idf.toolsPath": "/Users/amitupadhyay/.espressif"
+    "idf.toolsPath": "/Users/amitupadhyay/.espressif",
+    "idf.flashType": "UART",
+    "files.associations": {
+        "stdio.h": "c"
+    }
 }
