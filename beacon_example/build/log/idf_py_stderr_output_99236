@@ -1,0 +1,10 @@
+CMake Error at /Users/amitupadhyay/esp/v5.2.1/esp-idf/tools/cmake/component.cmake:313 (message):
+  Include directory
+  '/Users/amitupadhyay/esp_projects/beacon_example/main/host/nimble/esp-hci/include'
+  is not a directory.
+Call Stack (most recent call first):
+  /Users/amitupadhyay/esp/v5.2.1/esp-idf/tools/cmake/component.cmake:481 (__component_add_include_dirs)
+  main/CMakeLists.txt:1 (idf_component_register)
+
+
+ninja: error: rebuilding 'build.ninja': subcommand failed

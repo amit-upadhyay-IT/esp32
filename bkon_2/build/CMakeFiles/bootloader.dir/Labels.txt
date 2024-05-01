@@ -1,0 +1,13 @@
+# Target labels
+ bootloader
+# Source files and their labels
+/Users/amitupadhyay/esp_projects/bkon_2/build/CMakeFiles/bootloader
+/Users/amitupadhyay/esp_projects/bkon_2/build/CMakeFiles/bootloader.rule
+/Users/amitupadhyay/esp_projects/bkon_2/build/CMakeFiles/bootloader-complete.rule
+/Users/amitupadhyay/esp_projects/bkon_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule
+/Users/amitupadhyay/esp_projects/bkon_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule
+/Users/amitupadhyay/esp_projects/bkon_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule
+/Users/amitupadhyay/esp_projects/bkon_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule
+/Users/amitupadhyay/esp_projects/bkon_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule
+/Users/amitupadhyay/esp_projects/bkon_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule
+/Users/amitupadhyay/esp_projects/bkon_2/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule

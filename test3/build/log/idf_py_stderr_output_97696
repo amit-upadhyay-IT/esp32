@@ -1,0 +1,14 @@
+CMake Warning at /Users/amitupadhyay/esp/v5.2.1/esp-idf/tools/cmake/tool_version_check.cmake:41 (message):
+  Can not get version for tool:
+  /opt/homebrew/bin/aarch64-apple-darwin20-gcc-11
+
+  Check Getting Started documentation or proceed at own risk.
+
+Call Stack (most recent call first):
+  /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_common/project_include.cmake:10 (check_expected_tool_version)
+  /Users/amitupadhyay/esp/v5.2.1/esp-idf/tools/cmake/build.cmake:400 (include)
+  /Users/amitupadhyay/esp/v5.2.1/esp-idf/tools/cmake/build.cmake:624 (__build_process_project_includes)
+  /Users/amitupadhyay/esp/v5.2.1/esp-idf/tools/cmake/project.cmake:605 (idf_build_process)
+  CMakeLists.txt:8 (project)
+
+

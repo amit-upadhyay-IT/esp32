@@ -1,0 +1,22 @@
+[0/1] Re-running CMake...
+-- Building ESP-IDF components for target esp32c6
+-- Project sdkconfig file /Users/amitupadhyay/esp_projects/beacon_example/sdkconfig
+-- App "beacon_example" version: ef7e0d8-dirty
+-- Adding linker script /Users/amitupadhyay/esp_projects/beacon_example/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_system/ld/esp32c6/sections.ld.in
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.api.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.rvfp.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.newlib.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.version.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.phy.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.coexist.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.net80211.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.pp.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.wdt.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.newlib-normal.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/esp_rom/esp32c6/ld/esp32c6.rom.heap.ld
+-- Adding linker script /Users/amitupadhyay/esp/v5.2.1/esp-idf/components/soc/esp32c6/ld/esp32c6.peripherals.ld
+-- Configuring incomplete, errors occurred!
+FAILED: build.ninja 
+/opt/homebrew/Cellar/cmake/3.29.0/bin/cmake --regenerate-during-build -S/Users/amitupadhyay/esp_projects/beacon_example -B/Users/amitupadhyay/esp_projects/beacon_example/build
